@@ -4,7 +4,7 @@ var Name;　//登録者の名前
 var livea; //登録者の住所
 var maila; //登録者のめあど
 var comment;
-//var memoList = document.getElementById("writelist");
+
 
 var outputElements = {　//履歴の出力先
   memoList: document.querySelector("#writelist")
@@ -61,10 +61,18 @@ function inptApp(){
     }
     restoreRirekiList();
   });
+  $("#h3title").html("登録者");
 }
 
-inptApp();
-
+var pass = prompt("パスワードを入力してください");
+if(pass == "1234"){
+  inptApp();
+}else if(pass == "null"){
+  window.alert("パスワードを入力してください");
+}
+else{
+  window.alert("パスワードが違います");
+}
 
 function RiekisClear(){
   localforage.removeItem(ADDLISTNAME,function(data) {

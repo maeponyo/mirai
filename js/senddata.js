@@ -52,7 +52,7 @@ function addList(){
     comment = "こんにちわ"+ Name + "さん。あなたは" + num + "番目の方です。"
     deleteList()
     var newList = createList(Name,livea,maila);
-    rirekis.push(newList);
+    rirekis.unshift(newList);
     saveRirekiList();
   
     document.location = "#write";
@@ -74,6 +74,7 @@ function inptApp(){
       console.log(rirekis);
     }
   });
+  $("#h3title").html("登録者");
 }
 
 inptApp();
