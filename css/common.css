@@ -61,7 +61,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 #contents {
-   background:#ccc;
+   background:#90EE90;
 }
 
 #main {
@@ -133,7 +133,7 @@ h1,h2,h3,h4,h5,h6 {
    color:#333;
    line-height:40px;
    text-decoration:none;
-   border-bottom:3px solid #0089a1;
+   border-bottom:3px solid #228B22;
    background:#fff;
    background:linear-gradient(top, #fff, #efefef);
    background:-moz-linear-gradient(top, #fff, #efefef); /* Firefox用 */
@@ -148,21 +148,21 @@ h1,h2,h3,h4,h5,h6 {
 #menu li a.active {
    color:#fff;
    text-decoration:none;
-   background:#0F98AD;
-   background:linear-gradient(top, #1EACBF, #0F98AD);
-   background:-moz-linear-gradient(top, #1EACBF, #0F98AD); /* Firefox用 */
-   background:-o-linear-gradient(top, #1EACBF, #0F98AD); /* Opera用 */
-   background:-webkit-gradient(linear, left top, left bottom, from(#1EACBF), to(#0F98AD)); /* Safari,Google Chrome用 */
+   background:#32CD32;
+   background:linear-gradient(top, #00FF00, #32CD32);
+   background:-moz-linear-gradient(top, #00FF00, #32CD32); /* Firefox用 */
+   background:-o-linear-gradient(top, #00FF00, #32CD32); /* Opera用 */
+   background:-webkit-gradient(linear, left top, left bottom, from(#00FF00), to(#32CD32)); /* Safari,Google Chrome用 */
 }
 
 #menu li a:hover {
    color:#fff;
    text-decoration:none;
-   background:#0F98AD;
-   background:linear-gradient(top, #1EACBF, #0F98AD);
-   background:-moz-linear-gradient(top, #1EACBF, #0F98AD); /* Firefox用 */
-   background:-o-linear-gradient(top, #1EACBF, #0F98AD); /* Opera用 */
-   background:-webkit-gradient(linear, left top, left bottom, from(#1EACBF), to(#0F98AD)); /* Safari,Google Chrome用 */
+   background:#32CD32;
+   background:linear-gradient(top, #00FF00, #32CD32);
+   background:-moz-linear-gradient(top, #00FF00, #32CD32); /* Firefox用 */
+   background:-o-linear-gradient(top, #00FF00, #32CD32); /* Opera用 */
+   background:-webkit-gradient(linear, left top, left bottom, from(#00FF00), to(#32CD32)); /* Safari,Google Chrome用 */
 }
 
 
@@ -186,7 +186,7 @@ h1,h2,h3,h4,h5,h6 {
    margin-bottom:5px;
    padding:5px;
    font-size:14px;
-   border-left:5px solid #0089a1;
+   border-left:5px solid #228B22;
    border-bottom:1px dotted #999;
 }
 
@@ -195,7 +195,7 @@ h1,h2,h3,h4,h5,h6 {
    padding:5px;
    font-size:13px;
    color:#fff;
-   background:#0089a1;
+   background:#228B22;
 }
 
 #main h5 {
@@ -221,7 +221,7 @@ h1,h2,h3,h4,h5,h6 {
    padding:0;
    margin:0 0 0.5em 1em;
    padding:3px;
-   background:#eee;
+   background:#90EE90;
 }
 
 /* INFORMATION CUSTOMIZE */
@@ -252,7 +252,7 @@ h1,h2,h3,h4,h5,h6 {
    font-size:12px;
    text-align:left;
    border:1px solid #aaa;
-   background:#f0f7fc;
+   background:#90EE90;
 }
 
 #main table td {
@@ -274,7 +274,7 @@ h1,h2,h3,h4,h5,h6 {
    font-weight:bold;
    color:#333;
    text-align:center;
-   border-bottom:3px solid #0089a1;
+   border-bottom:3px solid #228B22;
    background:#efefef;
    background:-linear-gradient(top, #fff, #efefef);
    background:-moz-linear-gradient(top, #fff, #efefef); /* Firefox用 */
