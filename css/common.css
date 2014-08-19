@@ -12,7 +12,7 @@ body {
    line-height:1.6;
    letter-spacing:1px;
    font-family:Verdana, Helvetica, sans-serif;
-   font-size:12px;
+   font-size:13px;
    color:#333;
    background:#fff;
 }
@@ -34,6 +34,7 @@ a:hover {
 img {
    border:0;
    vertical-align:bottom;
+   /*text-align:center;*/
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -109,6 +110,12 @@ h1,h2,h3,h4,h5,h6 {
    margin:0;
    padding:10px;
    font-size:11px;
+}
+
+#header #pr #subtitle{
+   margin:0;
+   padding: 10px;
+   font-size:15px;
 }
 
 
@@ -260,6 +267,11 @@ h1,h2,h3,h4,h5,h6 {
    font-size:12px;
    text-align:left;
    border:1px solid #aaa;
+}
+
+#main #shubun{
+   width: 100%;    
+    /*margin: 0 auto;  */
 }
 
 

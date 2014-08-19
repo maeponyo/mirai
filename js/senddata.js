@@ -6,9 +6,6 @@ var maila; //登録者のめあど
 var comment;
 
 
-var outputElements = {　//履歴の出力先
-  memoList: document.querySelector("#writelist")
-};
 
 var rirekis = [];
 
@@ -54,10 +51,8 @@ function addList(){
     var newList = createList(Name,livea,maila);
     rirekis.unshift(newList);
     saveRirekiList();
-  
-    document.location = "#write";
 
-    $("#writerisult").html(comment);
+    alert(comment);
     console.log(livea,maila);
   }
 }
@@ -74,7 +69,6 @@ function inptApp(){
       console.log(rirekis);
     }
   });
-  $("#h3title").html("登録者");
 }
 
 inptApp();
@@ -82,12 +76,3 @@ inptApp();
 function dooo(){
   addList();
 }
-
-
-/*function RiekisClear(){
-  localforage.removeItem(MEMOLISTNAME,function(data) {
-    // Run this code once the key has been removed.
-    rirekis = [];
-    $("#wordcontent2").html("履歴を消去しました");
-});
-}*/
